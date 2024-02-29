@@ -10,13 +10,21 @@
 <main class="main">
   <p-menubar [model]="items">
     <ng-template pTemplate="start">
-        <img src="https://primefaces.org/cdn/primeng/images/primeng.svg" height="40" class="mr-2" />
+      <img
+        src="https://primefaces.org/cdn/primeng/images/primeng.svg"
+        height="40"
+        class="mr-2"
+      />
     </ng-template>
     <ng-template pTemplate="end">
-        <input type="text" pInputText placeholder="Search" class="w-full" />
+      <input type="text" pInputText placeholder="Search" class="w-full" />
     </ng-template>
-</p-menubar>
+  </p-menubar>
   <p-button label="Botão em primeng"></p-button>
+  <i class="pi pi-check"></i>
+  <i class="pi pi-times"></i>
+  <span class="pi pi-search"></span>
+  <span class="pi pi-user"></span>
 </main>
 
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
@@ -26,6 +34,5 @@
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * End of Placeholder  * * * * * * * * * * * * -->
 <!-- * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * -->
-
 
 <router-outlet />
